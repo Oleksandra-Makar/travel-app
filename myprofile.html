@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/59481b83ea.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Welcome to the TravelLife</title>
+</head>
+<body>
+    <nav class="navbar bg-dark">
+        <h1>
+            <a href="myprofile.html">
+                <i class="fas fa-suitcase-rolling"></i> TravelLife
+            </a>
+        </h1>
+        <ul>
+          <li><a href="profiles.html">Developers</a></li>
+          <li><a href="posts.html">Posts</a></li>
+          <li>
+            <a href="myprofile.html">
+              <i class="fas fa-user"></i>
+              <span class="hide-sm"> My Profile</span></a
+            >
+          </li>
+          <li>
+            <a href="login.html">
+              <i class="fas fa-sign-out-alt"></i>
+              <span class="hide-sm"> Logout</span></a
+            >
+          </li>
+        </ul>
+      </nav>
+      <section class="container">
+        <h1 class="large text-primary">
+          My Profile
+        </h1>
+        <p class="lead"><i class="fas fa-user"></i> Welcome John Doe</p>
+        <div class="dash-buttons">
+          <a href="create-profile.html" class="btn">
+            <i class="far fa-user text-primary"></i> Edit profile
+          </a>
+          <a href="add-trip.html" class="btn">
+            <i class="fas fa-plus text-primary"></i> Add your trip
+          </a>
+          <a href="add-future-trip.html" class="btn">
+            <i class="far fa-clock text-primary"></i> Plan your trip
+          </a>
+        </div>
+  
+        <h2 class="my-2">
+          Past Trips
+        </h2>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Country</th>
+              <th class="hide-sm">Companion</th>
+              <th class="hide-sm">Years</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Italy</td>
+              <td class="hide-sm">Friends</td>
+              <td class="hide-sm">
+                Aug 2019
+              </td>
+              <td>
+                <button class="btn btn-danger">
+                  Delete
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>Germany</td>
+              <td class="hide-sm">Friends</td>
+              <td class="hide-sm">
+                2019
+              </td>
+              <td>
+                <button class="btn btn-danger">
+                  Delete
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+  
+        <h2 class="my-2">
+          Future Trips
+        </h2>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Country</th>
+              <th class="hide-sm">Companion</th>
+              <th class="hide-sm">Years</th>
+              <th> <input class="custom-checkbox" type="checkbox" value="" id="flexCheckDefault" checked disabled>
+                <label class="" for="flexCheckDefault">
+                  Travel with others
+                </label>
+            </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Norway</td>
+              <td class="hide-sm">Anybody</td>
+              <td class="hide-sm">
+                2021
+              </td>
+              <td>
+                <button class="btn btn-danger">
+                  Delete
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+  
+        <div class="my-2">
+          <button class="btn btn-danger">
+            <i class="fas fa-user"></i> Delete My Account
+          </button>
+        </div>
+      </section>
+    </section>
+</body>
+</html>
